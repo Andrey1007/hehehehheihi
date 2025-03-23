@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="label.css">
+</head>
+<body>
+    <header><button id ='btn-logout'>Logout</button></header>
+    <button id="btn-add-user">Add</button>
+    <form id="form-adding-products">
+        <h2>Add user</h2>
+        <label for="input-name">
+            Name:
+            <input id="input-name" type="text" name="name"/>
+        </label>
+        <label for="input-description">
+            Description:
+            <input id="input-description" type="text" name="description"/>
+        </label>
+        <label for="input-description">
+            Avatar:
+            <input id="input-avatar" type="text" name="avatar"/>
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+    <div>
+        <div id="loader" class="loader" style="display: none">
+            <div class="spinner"></div>
+        </div>
+        <section id="users-container"></section>
+    </div>
+        
+    
+</body>
+<script src="js.js"></script>
+</html>
